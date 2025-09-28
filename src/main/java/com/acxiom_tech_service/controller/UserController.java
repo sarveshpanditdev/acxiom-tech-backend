@@ -11,7 +11,7 @@ import com.acxiom_tech_service.dto.UserDetailsDto;
 import com.acxiom_tech_service.service.UserService;
 
 @RestController
-@RequestMapping("/auth")
+@RequestMapping("/user")
 public class UserController {
 
     private final UserService userService;
